@@ -1,0 +1,12 @@
+# 受版权保护的书籍原件与转换产物 —— 仅限本地私有使用，不得提交
+documents/books/
+documents/**/*.pdf
+*_split/
+
+# 依赖与构建产物
+node_modules/
+*.tsbuildinfo
+.bench/
+
+# 系统文件
+.DS_Store

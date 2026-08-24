@@ -1,0 +1,23 @@
+{
+  "name": "@happywork/cli",
+  "version": "0.1.0",
+  "description": "个人实用命令行工具集",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "happywork": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "mupdf": "^1.28.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@bomb.sh/tab": "^0.0.22",
+    "citty": "^0.2.2",
+    "pdf-lib": "^1.17.1"
+  }
+}
