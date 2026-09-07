@@ -1,5 +1,8 @@
 *_split/
 
+# 临时产物：一次任务一个目录，任务结束即清理，永不进版本库
+tmp/
+
 # 依赖与构建产物
 node_modules/
 *.tsbuildinfo
@@ -7,3 +10,9 @@ node_modules/
 
 # 系统文件
 .DS_Store
+
+# 各平台 AI 助手的本地私有记忆
+CLAUDE.local.md
+CODEBUDDY.local.md
+.qwen/QWEN.local.md
+.workbuddy/memory/
